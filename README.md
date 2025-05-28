@@ -7,14 +7,15 @@
 
 - **Nhóm: 3**
 
-### Built With
-- ASP.NET Core WEB API: version 9
+## Built With
+
+- ASP.NET Core WEB API: Version 9
+- Dapper
+- Swagger
 - 
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- GETTING STARTED -->
 ## Getting Started
+- Install:
+```sh
+git clone https://github.com/nhphuc2112/lap-trinh-backend-asp.git
+```
+- Browser: http://localhost:5076 or 
