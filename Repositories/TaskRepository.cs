@@ -80,10 +80,10 @@ namespace TodoList.API.Repositories
         public async Task<(IEnumerable<Models.Task> Tasks, int TotalCount)> GetFilteredAsync(TaskFilterDto filter)
         {
             using var connection = new SqlConnection(_connectionString);
-            await connection.OpenAsync(); // Explicitly open connection
+            await connection.OpenAsync(); // mo ket noi
 
             var parameters = new DynamicParameters();
-            // Only add parameters that have values
+            // chi them parameter neu co gia tri
             if (!string.IsNullOrEmpty(filter.SearchTerm))
                 parameters.Add("@SearchTerm", $"%{filter.SearchTerm}%");
             if (filter.Status.HasValue)

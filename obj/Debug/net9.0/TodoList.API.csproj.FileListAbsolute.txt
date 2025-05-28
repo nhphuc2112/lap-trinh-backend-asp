@@ -84,3 +84,4 @@ C:\xampp\htdocs\todolist\TodoList.API\obj\Debug\net9.0\refint\TodoList.API.dll
 C:\xampp\htdocs\todolist\TodoList.API\obj\Debug\net9.0\TodoList.API.pdb
 C:\xampp\htdocs\todolist\TodoList.API\obj\Debug\net9.0\TodoList.API.genruntimeconfig.cache
 C:\xampp\htdocs\todolist\TodoList.API\obj\Debug\net9.0\ref\TodoList.API.dll
+C:\xampp\htdocs\todolist\TodoList.API\obj\Debug\net9.0\TodoList.API.sourcelink.json
