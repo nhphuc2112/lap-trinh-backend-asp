@@ -18,4 +18,11 @@
 ```sh
 git clone https://github.com/nhphuc2112/lap-trinh-backend-asp.git
 ```
-- Browser: http://localhost:5076 or 
+- Mở port 5076.
+- Mở cmd:
+  ```sh
+  cd /project
+  dotnet run
+  ```
+- Hoặc mở bằng Visual Studio với .sln -> Run with Http
+- Browser: http://localhost:5076
